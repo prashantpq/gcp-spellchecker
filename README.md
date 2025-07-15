@@ -1,26 +1,62 @@
 # ✨ Contextual Spell Checker
 
-This is a **Contextual Spell Checker web application** built using **Flask** and **Groq LLM APIs**. It corrects grammar and spelling mistakes in user input sentences with contextual understanding and highlights the corrections.
+[![Deployed on Render](https://img.shields.io/badge/Deployed-Render-blue)](https://spell-checker-2-ho7v.onrender.com)
+
+This project is a **contextual English grammar and spell checker** built using:
+
+- 🐍 **Flask** for backend API  
+- ⚡ **Groq LLM API** for contextual correction  
+- 🌐 **Beautiful responsive frontend** for user interaction  
+- 🚀 **Deployed on Render**
 
 ---
 
-## 🚀 **Features**
+## 🔗 **Live Demo**
 
-✅ Corrects grammar and spelling errors  
-✅ Highlights corrected words in the output  
-✅ Beautiful and responsive web UI  
-✅ Powered by **Groq LLM (LLaMA-3)** for high accuracy  
-✅ Deployable easily on Render, Railway, or any cloud
+👉 [View it here](https://spell-checker-2-ho7v.onrender.com)
 
 ---
 
-## 🛠 **Tech Stack**
+## ✨ **Features**
 
-- **Backend:** Python, Flask, Groq LLM
-- **Frontend:** HTML, CSS, JavaScript
-- **Deployment:** Render
+✅ Highlights corrected words  
+✅ Uses advanced LLM for grammar context understanding  
+✅ Responsive UI for desktop and mobile  
+✅ Copies corrected text with one click  
+✅ Clean and minimal design
 
 ---
 
-## 📂 **Project Structure**
+## 💻 **Setup Locally**
 
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/prashantpq/spell-checker.git
+cd spell-checker
+
+### 2️⃣ Create & Activate a Virtual Environment:
+```sh
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+```
+
+### 3️⃣ Install Required Dependencies:
+```sh
+pip install -r requirements.txt
+```
+
+---
+
+## 🛠 Running the Project Locally
+
+1️⃣ Start the Flask application:
+```sh
+python main.py
+```
+2️⃣ Open your browser and go to:
+   **http://127.0.0.1:8000/**
+3️⃣ Enter a sentence with spelling mistakes and check the corrected text.
+
+---
