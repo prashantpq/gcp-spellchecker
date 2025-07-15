@@ -60,3 +60,19 @@ python main.py
 3️⃣ Enter a sentence with spelling mistakes and check the corrected text.
 
 ---
+
+---
+
+## 📂 Project Structure
+```
+spell-checker/
+├── templates/
+│   ├── index.html  # Frontend UI (HTML, CSS, JS)
+├── main.py         # Flask API handling spell checking
+├── requirements.txt  # Project dependencies
+├── app.yaml        # Google Cloud App Engine configuration
+├── README.md       # Project documentation
+└── config.py       # (Optional) Configuration settings
+```
+
+---
