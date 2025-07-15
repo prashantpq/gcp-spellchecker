@@ -61,8 +61,6 @@ python main.py
 
 ---
 
----
-
 ## 📂 Project Structure
 ```
 spell-checker/
