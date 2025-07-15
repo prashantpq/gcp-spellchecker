@@ -74,3 +74,14 @@ spell-checker/
 ```
 
 ---
+
+## 📌 Future Improvements
+🔹 Improve UI with better styling.    
+🔹 Implement **Sentence Context Analysis**.  
+
+---
+
+## 📜 License
+This project is open-source and available for free use.
+
+---
