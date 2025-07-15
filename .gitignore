@@ -1,0 +1,6 @@
+gcp_keys/
+__pycache__/
+*.log
+*.pyc
+.env
+venv
